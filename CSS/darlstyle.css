@@ -1,0 +1,362 @@
+nav {
+    background-color: #447DC0;
+    width: 315px;
+    height: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color: #ffffff;
+
+}
+.photo {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    
+}
+.photo > img {
+    border-radius: 100%;
+    border: #8a9fb9 solid 5px;
+}
+
+#parag {
+    position: relative;
+    top: 10%;
+    left: 22%;
+}
+.RS {
+    position: relative;
+    left: 24%;
+    top: 10%;
+}
+ul {
+    list-style: none;
+    display: block;
+    justify-content: space-between;    
+}
+.menu {
+    position: relative;
+    left: 1%;
+    top: 15%;
+
+}
+li {
+    display: flex;
+    flex-basis: 50%;
+}
+#ulbar > li > img  {
+    margin: 40px;
+    margin-top: 0;
+}   
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+a:hover { 
+    text-decoration: none;
+
+}
+body {
+    margin: 0;
+    height: 1024px;
+    width: 1125px;
+    
+}
+.centre {
+    position: relative;
+    left: 28%;
+    margin-top: -95%;
+}
+.centre > img {
+    height: 1069px;
+    width: 1600px;
+    filter: brightness(0.5);
+}
+.centre > h1 {
+    position: relative;
+    margin-top: -69%;
+    left: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BFDAFB;
+}
+.centre > h2 {
+    position: relative;
+    left: 57%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BFDAFB;
+}
+#About {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7AA8E7;
+    position: relative;
+    left: 32%;
+    margin-top: -89%;
+    text-decoration: underline; 
+    text-decoration-color: #149DDD;
+    font-size: 30px;
+}
+#pageabout {
+    position: relative;
+    left: 47%;
+    top: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#Nassim {
+    position: relative;
+    width: 270px;
+    height: 353px;
+    left: 47%;
+    margin-top: 19%;
+    border: 2px solid #7AA8E7;
+}
+#deve {
+    position: relative;
+    left: 92%;
+    top: -37%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7AA8E7;
+    font-size: 25px;
+}
+#aboutli {
+    position: relative;
+    left: 65%;
+    bottom: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#aboutli > li {
+    margin: 35px;
+}
+#aboutli2 {
+    position: relative;
+    left: 102%;
+    bottom: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#aboutli2 > li {
+    margin: 35px;
+}
+#fact {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7AA8E7;
+    position: relative;
+    left: 32%;
+    margin-top: -40%;
+    text-decoration: underline; 
+    text-decoration-color: #149DDD;
+    font-size: 30px;
+}
+#textmidlle {
+    position: relative;
+    left: 47%;
+    top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#lineh {  /* line pour competance */
+    width: 2px;
+    height: 137px;
+    background-color: #7AA8E7;
+    position: relative;
+    bottom: -13%;
+    left: 53%;
+}
+#linef { /* line pour formation */
+    width: 2px;
+    height: 137px;
+    background-color: #7AA8E7;
+    position: relative;
+    bottom: -11%;
+    left: 53%;
+}
+#Compétences {
+    position: relative;
+    top: 11%;
+    left: 53%;
+    color: #7AA8E7;
+    font-family: arial;
+    font-size: 20px;
+}
+#circleb {
+    width: 15px; 
+    height: 15px;
+    background-color: #7AA8E7;
+    border: 5px;
+    border-radius: 50%;
+    border: 2px solid #7AA8E7;
+    position: relative;
+    margin: -379%;
+    top: -13%;
+}
+#textcopetences {
+    position: relative;
+    left: 58%;
+    bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 5px;
+}
+#formation {
+    position: relative;
+    top: 8%;
+    left: 53%;
+    color: #7AA8E7;
+    font-family: Arial;
+    font-size: 20px;
+}
+#text {
+    position: relative;
+    left: 58%;
+    bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 5px;
+}
+#Exp {
+    position: relative;
+    left: 104%;
+    bottom: 35%;
+    color: #7AA8E7;
+    font-family: Arial;
+    font-size: 20px;
+}
+#lineh2 {
+    width: 2px;
+    height: 279px;
+    background-color: #7AA8E7;
+    position: relative;
+    left: 104%;
+    bottom: 33%;
+
+}
+#circleb2 {
+    width: 15px; 
+    height: 15px;
+    background-color: #7AA8E7;
+    border: 5px;
+    border-radius: 50%;
+    border: 2px solid #7AA8E7;
+    position: relative;
+    margin: -379%;
+    top: -6%;
+}
+#textcopetences2 {
+    position: relative;
+    left: 106%;
+    bottom: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 5px;
+}
+.coordinats {
+    width: 430px;
+    height: 601px;
+    left: 47%;
+    position: relative;
+    bottom: -15%;
+}
+#ulcoord {
+    margin: -25px;
+    margin-top: 42px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ulcoord > li > img {
+    margin: 30px;
+    margin-top: -2px;
+    border-radius: 50%;
+    border: solid #8CD4F6 ;
+    background-color: #8CD4F6;
+}
+#ulcoord > li {
+    position: relative;
+    padding: 30px;
+}
+.formulaire {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    left: 92%;
+    bottom: 51%;
+}
+.champe {
+    display: block;
+    position: relative;
+    left: 26%;
+    bottom: -12%;
+    width: 300px;
+    height: 30px;
+    border: 5px solid #7AA8E7;
+    border-radius: 10px;
+    margin: 30px;
+}
+.champe2 {
+    margin-left: 14%;
+    margin-top: 10%;
+    width: 500px;
+    height: 230px;
+    border-radius: 65px;
+    border: 5px solid #7AA8E7;
+
+    
+}
+.button1 {
+    position: relative;
+    left: -44%;
+    top: 25%;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #71C8F1;
+    background-color: #71C8F1;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+body
+{
+    background: #373737;
+    color: #f4f4f4;
+}
+
+.header
+{
+    background: #373737;
+    color: #f4f4f4;
+}
+
+.nav__item
+{
+    color: #f4f4f4;
+    background: #373737;
+}
+
+.nav__item:hover, .nav__item_active
+{
+    background: #444;
+}
+
+.theme-button
+{
+    color: #f4f4f4;
+    background: #4f7faf;
+}
+
+.theme-button:hover {
+    background: #6f9fcf;
+}
+
+#themebutton {
+    position: relative;
+    left: 28%;
+    margin-top: 62%;
+}
